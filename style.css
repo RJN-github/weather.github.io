@@ -231,6 +231,34 @@
     width: 20%;
 }
 
+.madam{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    color: black;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.madam img{
+    height: 500px;
+    width: 100%;
+}
+
+.madam span{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 80, 80);
+    border-radius: 30px;
+}
+
+.madam p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
 @media (max-width: 980px) {
 
    .main{

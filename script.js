@@ -34,12 +34,17 @@ async function weather(city) {
         else{
             img.src = "images/sun-cloud-02-stroke-rounded.svg"
         }
+        
+    }
+    searchbtn.addEventListener("click", ()=>{
+        weather(searchbar.value)
 
-    
-}
+        if (searchbar.value=="Madam") {
+            let madam = document.querySelector(".mad")
+            madam.classList.toggle("madam")
+        }
+    })
 
-searchbtn.addEventListener("click", ()=>{
-    weather(searchbar.value)
-})
+
 
 weather();
